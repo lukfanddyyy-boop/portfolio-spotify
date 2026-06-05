@@ -178,14 +178,25 @@ html {
         transition-duration: 0.01ms !important;
     }
 }
-/* Pilihan B: Jika Anda ingin kesan Modern, Tech, dan Minimalis Elegan (Seperti Apple/Tesla) */
-/* (Hapus salah satu pilihan yang tidak Anda pakai) */
-.hero-name-modern {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 700;
-    font-size: 3.8rem;
-    letter-spacing: -1.5px; /* Merapatkan huruf agar terlihat tegas */
-    background: linear-gradient(135deg, #ffffff 30%, #a1a1aa 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+/* TARUH DI PALING BAWAH FILE STYLES.CSS */
+.hero-name {
+    font-family: 'Playfair Display', Georgia, serif !important;
+    font-weight: 700 !important;
+    font-size: 4rem !important; /* Membuat ukurannya kembali besar */
+    line-height: 1.2;
+    letter-spacing: 1px;
+    display: block;
+    margin-bottom: 10px;
+    
+    /* Warna gradasi Putih ke Perak Premium */
+    background: linear-gradient(135deg, #ffffff 30%, #a1a1aa 100%) !important;
+    -webkit-background-clip: text !important;
+    -webkit-text-fill-color: transparent !important;
+}
+
+/* Supaya di layar HP ukurannya tidak terlalu raksasa tapi tetap tegas */
+@media (max-width: 768px) {
+    .hero-name {
+        font-size: 2.8rem !important;
+    }
 }
