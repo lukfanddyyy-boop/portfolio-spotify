@@ -165,6 +165,7 @@ html {
     outline-offset: 2px;
 }
 
+
 ::selection {
     background-color: var(--primary-green);
     color: var(--dark-bg);
@@ -176,4 +177,15 @@ html {
         animation-iteration-count: 1 !important;
         transition-duration: 0.01ms !important;
     }
+}
+/* Pilihan B: Jika Anda ingin kesan Modern, Tech, dan Minimalis Elegan (Seperti Apple/Tesla) */
+/* (Hapus salah satu pilihan yang tidak Anda pakai) */
+.hero-name-modern {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 3.8rem;
+    letter-spacing: -1.5px; /* Merapatkan huruf agar terlihat tegas */
+    background: linear-gradient(135deg, #ffffff 30%, #a1a1aa 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
