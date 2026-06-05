@@ -7,13 +7,15 @@
 :root {
     --primary-green: #4ade80;
     --primary-blue: #3b82f6;
-    --primary-purple: #a855f7;
+    /* Ubah warna ungu menjadi warna putih keperakan (Platinum) */
+    --primary-purple: #e2e8f0; 
     --dark-bg: #000000;
     --dark-secondary: #111827;
     --dark-tertiary: #1f2937;
     --text-primary: #ffffff;
     --text-secondary: #9ca3af;
 }
+
 
 html {
     scroll-behavior: smooth;
@@ -151,7 +153,8 @@ input:focus, textarea:focus {
     }
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+/* TARUH DI BARIS 1 PALING ATAS */
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700&family=Montserrat:wght@300;400;500;700&family=Poppins:wght@400;600&display=swap');
 
 html {
     scroll-padding-top: 100px;
